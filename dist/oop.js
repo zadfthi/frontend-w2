@@ -1,4 +1,5 @@
 "use strict";
+// Object Oriented Programming
 class Person {
     constructor(name, address) {
         this.name = name;
@@ -6,7 +7,7 @@ class Person {
     }
     greet() {
         console.log(`Hi, nama saya ${this.name} rumah saya di Kota ${this.addres}`);
-    }
+    } //Method 
 }
 class Employee extends Person {
     constructor(name, address, jobTitle) {
@@ -15,7 +16,7 @@ class Employee extends Person {
     }
     work() {
         console.log(`Aku ${this.name} bekerja sebagai ${this.jobTitle}`);
-    }
+    } // Method
 }
 let employee1 = new Employee('Jubaedah', 'Tegal', 'Dagang');
 employee1.greet();
